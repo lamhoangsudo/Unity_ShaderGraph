@@ -764,6 +764,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6569263991596126041, guid: f64598ecfcb9aa84eb24ade0cf0a5b92,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2a598883ff7c9e41841723bf07415f1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19279,6 +19284,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2068500750}
     m_Modifications:
+    - target: {fileID: 5700056557041915445, guid: ac49fc24c75b5e44e8aed4401e9ad990,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2a598883ff7c9e41841723bf07415f1, type: 2}
     - target: {fileID: 6060252237822769120, guid: ac49fc24c75b5e44e8aed4401e9ad990,
         type: 3}
       propertyPath: m_Name
@@ -36402,6 +36412,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6569263991596126041, guid: f64598ecfcb9aa84eb24ade0cf0a5b92,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2a598883ff7c9e41841723bf07415f1, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38353,6 +38368,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2068500750}
     m_Modifications:
+    - target: {fileID: 5700056557041915445, guid: ac49fc24c75b5e44e8aed4401e9ad990,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2a598883ff7c9e41841723bf07415f1, type: 2}
     - target: {fileID: 6060252237822769120, guid: ac49fc24c75b5e44e8aed4401e9ad990,
         type: 3}
       propertyPath: m_Name
@@ -38867,6 +38887,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2068500750}
     m_Modifications:
+    - target: {fileID: 5700056557041915445, guid: ac49fc24c75b5e44e8aed4401e9ad990,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2a598883ff7c9e41841723bf07415f1, type: 2}
     - target: {fileID: 6060252237822769120, guid: ac49fc24c75b5e44e8aed4401e9ad990,
         type: 3}
       propertyPath: m_Name
