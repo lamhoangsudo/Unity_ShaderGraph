@@ -55,14 +55,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AccumulationSize: 300
-    - _Amount: 0.65
-    - _NoiseSize: 5000
+    - _AccumulationSize: 25
+    - _Amount: 0.4
+    - _Blend: 100
+    - _NoiseSize: 500
     - _NoiseStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SoftEdgeDistance: 0.1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.10328976, g: 0.4716981, b: 0.05606973, a: 1}
+    - _Color: {r: 0.09709665, g: 0.2754717, b: 0.07432537, a: 1}
+    - _GrowDirection: {r: 0.7, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
