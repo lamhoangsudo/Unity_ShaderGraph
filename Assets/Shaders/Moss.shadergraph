@@ -170,6 +170,9 @@
         },
         {
             "m_Id": "abc2be63d84d4cfc811c54385faee612"
+        },
+        {
+            "m_Id": "ff82a7e890014744805eaadec2e22297"
         }
     ],
     "m_GroupDatas": [
@@ -244,34 +247,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "09f16e1105364d7487adedd4f96ea248"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "8fbed5e443e64151b67da4fbf8f89329"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "09f16e1105364d7487adedd4f96ea248"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "c353e43f650a4f08a18c4587e35f6dc6"
-                },
-                "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "12bb96b0dbff4471b1949ee91d8731cc"
                 },
                 "m_SlotId": 0
@@ -323,6 +298,20 @@
                     "m_Id": "09f16e1105364d7487adedd4f96ea248"
                 },
                 "m_SlotId": -448570964
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "2e669047bb5a4fc8bc009beb5adac0de"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "ff82a7e890014744805eaadec2e22297"
+                },
+                "m_SlotId": -995667557
             }
         },
         {
@@ -673,6 +662,34 @@
                     "m_Id": "cca0401fb2134c1baccf4f4059819857"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "ff82a7e890014744805eaadec2e22297"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "8fbed5e443e64151b67da4fbf8f89329"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "ff82a7e890014744805eaadec2e22297"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "c353e43f650a4f08a18c4587e35f6dc6"
+                },
+                "m_SlotId": 0
             }
         }
     ],
@@ -1416,6 +1433,27 @@
     },
     "m_Labels": [],
     "m_Space": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "1c351930a53b4826b692c4afe86d1e18",
+    "m_Id": 1,
+    "m_DisplayName": "UV",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "UV",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
 }
 
 {
@@ -3609,6 +3647,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "c7377e2be812482ba66ffdcf3de14e74",
+    "m_Id": -995667557,
+    "m_DisplayName": "Blend",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Blend",
+    "m_StageCapability": 3,
+    "m_Value": 100.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.ColorRGBMaterialSlot",
     "m_ObjectId": "c9bc15ba2ad1477f82877a92b8069973",
     "m_Id": 0,
@@ -4837,5 +4890,50 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "ff82a7e890014744805eaadec2e22297",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Simple Triplanar UV",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1484.0,
+            "y": 440.0,
+            "width": 159.0,
+            "height": 95.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "c7377e2be812482ba66ffdcf3de14e74"
+        },
+        {
+            "m_Id": "1c351930a53b4826b692c4afe86d1e18"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"72237be2233949a48bc0de8605a147f3\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [
+        "9e088d3f-cc8b-4081-a1ba-07248eaa293e"
+    ],
+    "m_PropertyIds": [
+        -995667557
+    ],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
 }
 
